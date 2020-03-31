@@ -1,0 +1,8 @@
+It's simple assignment for advanced internet appliacations ;-)
+"Flex grid" is based on css @media only screen and (min width: x) and (max-width: y)
+and setting necessary elements width using percentages.
+To create sticky footer I group all other content in one div and assign to it style class
+with min-height: 100% and margin-bottom equals negative footer height.
+I decide to make menu button's position fixed and display menu list after this button is hover.
+To enable article's wrapping it needs to use flex-wrap: wrap.
+Most of the content has flex display.
