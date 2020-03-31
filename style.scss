@@ -18,6 +18,10 @@ html, body {
 
 #all-content {
     min-height: 100%;
+    margin-bottom: -$footer-height;
+}
+
+#contents-padding {
     padding: 40px;
 }
 
@@ -25,7 +29,6 @@ footer {
     text-align: center;
     background-color: $article-color;
     height: $footer-height;
-    margin-top: -$footer-height;
     display: flex;
     justify-content: center;
     outline: 2px solid black;
